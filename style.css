@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f0e6;
+    color: #4b0000;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #800000;
+    padding: 15px 30px;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: #f5f0e6;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffdfb5;
+}
+
+.container {
+    padding: 30px;
+}
+
+h1, h2 {
+    color: #800000;
+}
+
+p {
+    color: #4b0000;
+    line-height: 1.6;
+}
+
+.card {
+    background-color: #fff0e6;
+    border: 2px solid #800000;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+}
+
+button {
+    background-color: #800000;
+    color: #f5f0e6;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #4b0000;
+}
+
+input, select {
+    padding: 8px;
+    border: 1px solid #800000;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 200px;
+}
+
+#output {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #fff0e6;
+    border: 1px solid #800000;
+    border-radius: 5px;
+}
+
+.card-content {
+    display: flex;         
+    align-items: center;    
+    gap: 20px;               
+}
+
+.selfie{
+    width: 100px;          
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;      
+    border: 2px solid #800000; 
+}
+
+.text {
+    flex: 1;               
+}
